@@ -1,0 +1,28 @@
+.form {
+  width: 60%;
+  display: flex;
+  background-color: #fafafa;
+  border-radius: 4px;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: space-between;
+  height: 46px;
+  overflow: hidden;
+  input {
+    border: none;
+    background-color: #fafafa;
+    margin: auto;
+    padding: 10px;
+    outline: 0;
+    width: 100%;
+    height: 46px;
+  }
+  button {
+    background-color: #fafafa;
+    padding: 10px;
+    margin-left: 5px;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+  }
+}

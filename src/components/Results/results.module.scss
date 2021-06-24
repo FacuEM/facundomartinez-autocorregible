@@ -1,0 +1,23 @@
+.container {
+  background-color: white;
+  border-radius: 5px;
+  width: 80%;
+  margin: 25px auto;
+  padding: 20px 10px;
+
+  .cardDeck {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 5px;
+  }
+  .header {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 30px;
+  }
+}
